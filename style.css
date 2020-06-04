@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a5a5ad;
+  padding: 8px 24px;
+}
+
+.navlogo {
+  font-size: 30px;
+}
+
+.navmenu {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.navmenu li {
+  padding: 8px 12px;
+}
+
+.navmenu li:hover {
+  background-color: #b6cfcd;
+  border-radius: 4px;
+}
+
+.navhelp {
+  list-style: none;
+  color: black;
+  display: flex;
+  padding: 0;
+}
+
+.navhelp li {
+  padding: 8px 12px;
+}
+
+.navtogglebtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  color: black;
+}
+
+.logic {
+  text-align: center;
+  padding: 30px 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logicmain {
+  padding: 20px;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.logicmainword {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.logicfeatures {
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+  border-bottom: 1px solid #a5a5ad;
+  padding-bottom: 6px;
+}
+
+.logicfeatureslist {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  padding: 10px 100px;
+  padding-top: 36px;
+}
+
+.logiclists {
+  padding: 8px 12px;
+  font-size: 30px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: #8fbda8;
+  width: 160px;
+}
+
+.start {
+  text-align: center;
+}
+.howtostart {
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+  border-bottom: 1px solid #a5a5ad;
+  padding-bottom: 6px;
+}
+
+.howtolist {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  padding: 10px 100px;
+  padding-top: 36px;
+}
+
+.howtolist-list {
+  padding: 8px 12px;
+  font-size: 30px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: #8fbda8;
+  width: 160px;
+}
+
+.manualli {
+  padding: 8px 12px;
+}
+
+.manualli:hover {
+  background-color: #b6cfcd;
+  border-radius: 4px;
+}
+
+.manualul {
+  justify-content: space-between;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid grey;
+  background-color: #8fbda8;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.manualli {
+  padding: 8px 12px;
+}
+
+.manumanu {
+  display: none;
+  position: absolute;
+  right: 32px;
+  color: black;
+}
+
+
+.basicname {
+  font-size: 30px;
+  border-bottom: 1px solid grey;
+  padding-left: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.basiclist-list {
+  padding: 5px 30px;
+  padding-left: 25%;
+  font-size: 19px;
+  padding-top: 20px;
+}
+
+.basiclist-img {
+  text-align: center;
+}
+
+.jpg {
+  width: 50%;
+}
+
+.lastlast {
+  border-top: 1px solid grey;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+@media(max-width:764px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  .navmenu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navmenu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navhelp {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navtogglebtn {
+    display: block;
+  }
+
+  .navmenu.active,
+  .navhelp.active {
+    display: flex;
+  }
+
+  .logicfeatureslist {
+    flex-direction: column;
+  }
+
+  .logiclists {
+    margin: 10px;
+    width: auto;
+  }
+
+  .howtolist {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .howtolist-list {
+    margin: 10px;
+    width: auto;
+  }
+}
+
+@media(max-width:1247px) {
+ .manumanu {
+   display: block;
+ }
+}
