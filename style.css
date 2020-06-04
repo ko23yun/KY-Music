@@ -52,6 +52,44 @@ a {
   color: black;
 }
 
+
+
+
+
+
+
+
+
+.k {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c9bba3;
+  padding: 8px 0px;
+  padding-left: 25%;
+}
+
+.b {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.b li {
+  padding: 8px 12px;
+}
+
+.b li:hover {
+  background-color: #b8769c;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
 .logic {
   text-align: center;
   padding: 30px 40px;
@@ -121,41 +159,6 @@ a {
   background-color: #8fbda8;
   width: 160px;
 }
-
-.manualli {
-  padding: 8px 12px;
-}
-
-.manualli:hover {
-  background-color: #b6cfcd;
-  border-radius: 4px;
-}
-
-.manualul {
-  justify-content: space-between;
-  margin: 0;
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 1px solid grey;
-  background-color: #8fbda8;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-.manualli {
-  padding: 8px 12px;
-}
-
-.manumanu {
-  display: none;
-  position: absolute;
-  right: 32px;
-  color: black;
-}
-
 
 .basicname {
   font-size: 30px;
@@ -241,10 +244,4 @@ a {
     margin: 10px;
     width: auto;
   }
-}
-
-@media(max-width:1247px) {
- .manumanu {
-   display: block;
- }
 }
